@@ -142,7 +142,7 @@ export KUBEDB_BYPASS_VALIDATING_WEBHOOK_XRAY=false
 export KUBEDB_USE_KUBEAPISERVER_FQDN_FOR_AKS=true
 
 export APPSCODE_ENV=${APPSCODE_ENV:-prod}
-export SCRIPT_LOCATION="curl -fsSL https://raw.githubusercontent.com/kubedb/cli/0.9.0/"
+export SCRIPT_LOCATION="curl -fsSL https://raw.githubusercontent.com/ankitsinhaiitg/cli/0.9.0/"
 if [ "$APPSCODE_ENV" = "dev" ]; then
   detect_tag
   export SCRIPT_LOCATION="cat "
