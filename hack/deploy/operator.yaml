@@ -21,7 +21,7 @@ spec:
       imagePullSecrets: [${KUBEDB_IMAGE_PULL_SECRET}]
       containers:
       - name: operator
-        image: ${KUBEDB_DOCKER_REGISTRY}/${KUBEDB_OPERATOR_NAME}:${KUBEDB_OPERATOR_TAG}
+        image: sinhaaks07/kubedboperator:0.9.0
         imagePullPolicy: ${KUBEDB_IMAGE_PULL_POLICY}
         args:
         - run
