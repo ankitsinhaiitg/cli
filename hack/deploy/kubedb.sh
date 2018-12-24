@@ -1,6 +1,6 @@
 #!/bin/bash
 set -eou pipefail
-
+#adding comment to try to add tags.
 crds=(
   dormantdatabases.kubedb.com
   elasticsearches.kubedb.com
